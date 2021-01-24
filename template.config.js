@@ -1,5 +1,5 @@
 
 module.exports = {
-  placeholderName: 'tavvfiq',
+  placeholderName: 'HelloWorld',
   templateDir: './template',
 }
