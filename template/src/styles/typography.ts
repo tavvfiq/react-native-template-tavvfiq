@@ -1,9 +1,9 @@
 import {scaleFont} from './mixins';
 
 // FONT FAMILY
-export const FONT_FAMILY_REGULAR = 'Poppins-Regular';
-export const FONT_FAMILY_MEDIUM = 'Poppins-Medium';
-export const FONT_FAMILY_BOLD = 'Poppins-Bold';
+export const FONT_FAMILY_REGULAR = 'Roboto';
+export const FONT_FAMILY_MEDIUM = 'Roboto';
+export const FONT_FAMILY_BOLD = 'Roboto';
 
 // FONT WEIGHT
 export const FONT_WEIGHT_REGULAR = '400';

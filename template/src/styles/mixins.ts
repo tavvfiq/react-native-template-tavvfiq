@@ -1,7 +1,7 @@
 import {Dimensions, PixelRatio} from 'react-native';
 
 const WINDOW_WIDTH = Dimensions.get('window').width;
-const guidelineBaseWidth = 360;
+const guidelineBaseWidth = 360; // Mockup BaseWidth
 
 export const scaleSize = (size: number) =>
   (WINDOW_WIDTH / guidelineBaseWidth) * size;
