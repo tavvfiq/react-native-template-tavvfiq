@@ -8,17 +8,11 @@
  * @format
  */
 
-import React from 'react';
-import {Text, View} from 'react-native';
+import React from "react";
+import AppContainer from "@navigations/AppContainer";
 
-class App extends React.Component {
-  render() {
-    return (
-      <View>
-        <Text>Hello World</Text>
-      </View>
-    );
-  }
-}
+const App = () => {
+	return <AppContainer />;
+};
 
 export default App;
