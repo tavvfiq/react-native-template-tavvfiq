@@ -9,7 +9,7 @@
  */
 
 import React from "react";
-import AppContainer from "@navigations/AppContainer";
+import AppContainer from "@navigation/AppContainer";
 
 const App = () => {
 	return <AppContainer />;
