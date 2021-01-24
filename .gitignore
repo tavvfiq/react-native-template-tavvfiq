@@ -1,6 +1,8 @@
 node_modules/
 .vscode/
 .DS_Store
+
+# android
 .gradle
 build/
 
@@ -9,3 +11,6 @@ build/
 
 # CocoaPods
 /ios/Pods/
+
+# yarn error
+yarn-error.log
