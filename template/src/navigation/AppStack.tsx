@@ -8,7 +8,7 @@ interface Props {}
 
 const AppStack = (props: Props) => {
 	return (
-		<Stack.Navigator>
+		<Stack.Navigator headerMode="none">
 			<Stack.Screen name="Home" component={Home} />
 		</Stack.Navigator>
 	);

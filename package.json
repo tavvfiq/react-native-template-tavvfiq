@@ -1,7 +1,6 @@
 {
   "name": "react-native-template-tavvfiq",
-  "version": "0.0.1",
-  "description": "Clean and minimalist React Native template for a quick start with TypeScript.",
+  "description": "tavvfiq custom react-native template.",
   "scripts": {
     "test": "exit 0",
     "prepublishOnly": "npm --no-git-tag-version version $TRAVIS_TAG"
@@ -21,10 +20,11 @@
     "template",
     "boilerplate"
   ],
-  "author": "Taufiq Widi <taufiqwidinugroho@gmail.com>",
+  "author": "tavvfiq <taufiqwidinugroho@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/tavvfiq/react-native-template-tavvfiq/issues"
   },
-  "homepage": "https://github.com/tavvfiq/react-native-template-tavvfiq#readme"
+  "homepage": "https://github.com/tavvfiq/react-native-template-tavvfiq#readme",
+  "version": "0.0.1"
 }

@@ -58,15 +58,16 @@
 		// "emitDecoratorMetadata": true,         /* Enables experimental support for emitting type metadata for decorators. */
 		"baseUrl": "./src",
 		"paths": {
-			"@assets/*": ["./assets"],
-			"@components/*": ["./components"],
-			"@hoc/*": ["./hoc"],
-			"@hooks/*": ["./hooks"],
-			"@interface/*": ["./interface"],
-			"@navigation/*": ["./navigation"],
-			"@screens/*": ["./screens"],
-			"@utils/*": ["./utils"],
-			"@styles/*": ["./styles"]
+			"@src/*": ["./src/*"],
+			"@assets/*": ["./assets/*"],
+			"@components/*": ["./components/*"],
+			"@hoc/*": ["./hoc/*"],
+			"@hooks/*": ["./hooks/*"],
+			"@interface/*": ["./interface/*"],
+			"@navigation/*": ["./navigation/*"],
+			"@screens/*": ["./screens/*"],
+			"@utils/*": ["./utils/*"],
+			"@styles/*": ["./styles/*"]
 		}
 	},
 	"exclude": [

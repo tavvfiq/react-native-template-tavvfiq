@@ -1,6 +1,6 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
-import { Mixins } from "@styles/index";
+import { Colors, Mixins } from "@styles/index";
 
 interface Props {
 	title: string;
@@ -8,16 +8,24 @@ interface Props {
 
 const styles = StyleSheet.create({
 	container: {
+		display: "flex",
 		flexDirection: "row",
-		flex: 1,
-		height: Mixins.scaleSize(50),
+		height: Mixins.scaleSize(60),
+		backgroundColor: Colors.WHITE,
+		alignItems: "center",
+		...Mixins.padding(0, 10, 0, 10),
+		...Mixins.boxShadow(Colors.BLACK),
+	},
+	title: {
+		fontWeight: "bold",
+		fontSize: Mixins.scaleFont(20),
 	},
 });
 
 const Header = ({ title }: Props) => {
 	return (
 		<View style={styles.container}>
-			<Text>{title}</Text>
+			<Text style={styles.title}>{title}</Text>
 		</View>
 	);
 };
